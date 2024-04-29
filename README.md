@@ -1,6 +1,6 @@
 ![logo generico](src/.idea/pngwing.com.png)
 
-<h2 align="left">Converzor de monedas</h2>
+<h2 align="center">Converzor de monedas</h2>
 
 ### Contenido
 
