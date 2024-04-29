@@ -13,7 +13,7 @@
 ## Descripcion del proyecto
 
 <p>
-	Este proyecto trata sobre un converzor de monedas funcional y facil de usar, para el challenge de Alura.
+	Este proyecto trata sobre un converzor de monedas funcional, facil de usar y con una comunicion con una Api de divisas
 </p>
 
 
