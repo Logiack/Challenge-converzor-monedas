@@ -10,6 +10,7 @@ public class Menu {
             4- Dolares ==> Euros
             5- Dolares ==> Pesos Argentinos
             6- Pesos Argentinos ==> Dolares
+            7- Otros
             9- Salir
             
             *********************************

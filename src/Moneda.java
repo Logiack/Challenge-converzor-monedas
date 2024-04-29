@@ -31,4 +31,25 @@ public class Moneda {
         }
     }
 
+    public void busquedaEspecifica(String divisa, String divisaConvert, double monto) {
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + apikey + "/pair/" + divisa + "/" + divisaConvert + "/" + monto);
+
+        try {
+            HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(direccion)
+                    .build();
+
+            HttpResponse<String> response = client
+                    .send(request, HttpResponse.BodyHandlers.ofString());
+
+            String json = response.body();
+            Gson gson = new Gson();
+            Respuestas respuestas = gson.fromJson(json, Respuestas.class);
+            System.out.println("La conversión es " + respuestas.getConversionResult());
+        } catch (IOException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }
