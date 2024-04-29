@@ -16,7 +16,7 @@
 ## Descripcion del proyecto
 
 <p>
-	Este proyecto trata sobre un converzor de monedas funcional, facil de usar y con una comunicion con una Api de divisas
+	Este proyecto trata sobre un converzor de monedas funcional, facil de usar y con una comunicacion con una Api de divisas
 </p>
 
 ## Herramientas utilizadas
@@ -27,6 +27,7 @@
 ## Funcionalidad
 * `Funcionalidad 1:` Se le mostrara un menú de eleciones
 * `Funcionalidad 2:` Utilizar las opciones de convercion que necesite.
+* `Funcionalidad 3:` Tambien puede hacer una conversion personalizada utilizando las divisas a su eleccion
 * `Funcionalidad 3:` Digitar el monto al cual nececite hacer la converzion.
 * `Funcionalidad 4:` Se le mostrara el resultado de la converzion del monto dado por el usuario.
 
